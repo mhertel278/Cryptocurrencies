@@ -1,6 +1,8 @@
 # Cryptocurrencies
 
-## Python 3.7.9, scikit=learn 0.24.1, jupyter notebook 6.1.4
+## Resources
+    
+Python 3.7.9, scikit=learn 0.24.1, jupyter notebook 6.1.4
 
 ## Overview
 
