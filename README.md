@@ -14,4 +14,8 @@ I then used PCA to reduce the dimensions of the data set to three principal comp
 
 From the Elbow Curve I determined that 4 clusters would optimal, I fit the K-Means with 4 clusters to the data and predicted the classes.  I joined the predicted classes as a new column to the original dataframe to show the class for each currency.  I then used hvplot to create a 3d scatter plot visualizing the cryptocurrencies in the 4 clusters.
 
-Additionally, I created a scatter plot using the TotalCoinsMined and TotalCoinsSupply columns of the final data set as the x and y axes, with Coin Name and Class in the hover data, to visualize the amount of each tradeable currency on the market.  In order to more easily visualize this data, I scaled the TotalCoinsMined and TotalCoinsSupply columns data with the MinMaxScaler.
+Additionally, I created a scatter plot using the TotalCoinsMined and TotalCoinsSupply columns of the final data set as the x and y axes, with Coin Name and Class in the hover data, to visualize the amount of each tradeable currency on the market.  
+
+![clusters](Resources/cluster_plot.png)
+
+In order to more easily visualize this data, I scaled the TotalCoinsMined and TotalCoinsSupply columns data with the MinMaxScaler.
